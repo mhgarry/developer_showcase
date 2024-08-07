@@ -1,0 +1,75 @@
+# macOS files
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+.env
+
+# Bun
+bun.lockb
+bun-manifest-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.env
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# PHP
+vendor/
+*.log
+composer.lock
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+*.log.*
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Other common files
+*.bak
+*.swp
+*.swo
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.pid
+*.gz
+*.zip
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# Build directories
+dist/
+build/
