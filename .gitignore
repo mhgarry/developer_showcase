@@ -8,7 +8,7 @@ yarn-error.log*
 pnpm-lock.yaml
 package-lock.json
 .env
-
+.vscode
 # Bun
 bun.lockb
 bun-manifest-cache/
