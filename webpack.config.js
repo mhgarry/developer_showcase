@@ -2,45 +2,55 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const { dependencies } = require("webpack");
 
 module.exports = {
-    entry: "./README.md",
+    entry: "./README.md", // Markdown as the entry point
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "index.html", // Output as an HTML file
+        filename: "bundle.js", // This will not be used as a script in HTML
     },
     module: {
         rules: [
             {
-                test: /\.md$/,
+                test: /\.md$/, // Match markdown files
                 use: [
                     {
-                        loader: "html-loader",
+                        loader: "html-loader", // Convert HTML to a string
                     },
                     {
-                        loader: "markdown-loader",
+                        loader: "markdown-loader", // Convert markdown to HTML
                     },
                 ],
             },
             {
                 test: /\.css$/,
-                use: [MiniCssExtractPlugin.loader, "css-loader"],
+                use: [MiniCssExtractPlugin.loader, "css-loader"], // CSS handling
             },
         ],
     },
-    // add yarn as my package manager
-    // add the markdown-loader and html-loader as dependencies
-    // add the markdown-loader and html-loader as devDependencies
-    dependencies: ["yarn", "markdown-loader", "html-loader"],
     plugins: [
         new HtmlWebpackPlugin({
-            template: "./src/index.html", // This should be adapted to use the processed Markdown
-            filename: "index.html", // Output HTML filename
+            templateContent: ({ htmlWebpackPlugin }) => `
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Developer Showcase</title>
+                    <link rel="stylesheet" href="styles.css" />
+                </head>
+                <body>
+                    <div id="app">
+                        ${htmlWebpackPlugin.tags.headTags}
+                    </div>
+                </body>
+            </html>
+            `,
+            inject: false, // We manually handle the injection
         }),
         new MiniCssExtractPlugin({
-            filename: "styles.css",
+            filename: "styles.css", // Output CSS file
         }),
-        new CleanWebpackPlugin(),
+        new CleanWebpackPlugin(), // Clean up output directory before build
     ],
 };

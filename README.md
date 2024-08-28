@@ -186,10 +186,10 @@ Here's a teaser of what's to come from me. This is a project I started yesterday
 
 Pixel Path is a unique productivity hub, designed by and for individuals with ADHD, to transform task management into an engaging adventure. Combining the charm of pixel art with game-like dynamics, Pixel Path motivates and assists users in managing their daily lives effectively and joyfully.
 
-- 🎮 Gamified Approach: Engaging and rewarding application that rewards users for getting their tasks done with experience, sweet 8-bit tunes, and a engaging overworld map that can acts as a visual dashboard for the application.
-- 🦹🏽‍♀️ Avatar Creation: Ability to create and customize 8-bit avatars to represent each user. As a user progresses in level they're rewarded with random outfit drops and other rewards.
-- 🧏🏿 Accessible task management: Task management designed to trigger the unique rewards system of the ADHD mind.
-- 🛟 Safe communal spaces: For users to connect, share experiences, and build a sustainable support system.
+-   🎮 Gamified Approach: Engaging and rewarding application that rewards users for getting their tasks done with experience, sweet 8-bit tunes, and a engaging overworld map that can acts as a visual dashboard for the application.
+-   🦹🏽‍♀️ Avatar Creation: Ability to create and customize 8-bit avatars to represent each user. As a user progresses in level they're rewarded with random outfit drops and other rewards.
+-   🧏🏿 Accessible task management: Task management designed to trigger the unique rewards system of the ADHD mind.
+-   🛟 Safe communal spaces: For users to connect, share experiences, and build a sustainable support system.
 
 **Planned Tech Stack**:
 
@@ -202,10 +202,10 @@ _Repo is currently in JavaScript but it will be migrating to Typescript_
 
 An open source free educational platform aimed at teaching tech to people of all ages, incomes, and skill levels, focusing on:
 
-- 🖥️ Flexible Interactive Lessons: Engaging courses and innovative approaches to enhance learning experiences.
-- 🎯 Personalized Learning Paths: Tailored resources to meet individual needs and schedules.
-- 🔍 Accessibility Features: Tools to ensure content is available to everyone.
-- 🌐 Community Support: Forums, chat rooms, and mentorship programs to foster collaboration and growth
+-   🖥️ Flexible Interactive Lessons: Engaging courses and innovative approaches to enhance learning experiences.
+-   🎯 Personalized Learning Paths: Tailored resources to meet individual needs and schedules.
+-   🔍 Accessibility Features: Tools to ensure content is available to everyone.
+-   🌐 Community Support: Forums, chat rooms, and mentorship programs to foster collaboration and growth
 
 **Planned Tech Stack**:
 
@@ -215,9 +215,9 @@ An open source free educational platform aimed at teaching tech to people of all
 
 A social networking application focused on building genuine connections through web accessibility, featuring:
 
-- 🎨 Profile Customization: Unique features to express individuality.
-- 🤝 Interest-Based Networking: Connecting users with similar passions.
-- ♿ Inclusive Design: Accessibility-first approach for all users.
+-   🎨 Profile Customization: Unique features to express individuality.
+-   🤝 Interest-Based Networking: Connecting users with similar passions.
+-   ♿ Inclusive Design: Accessibility-first approach for all users.
 
 **Planned Tech Stack**:
 
@@ -251,11 +251,11 @@ This repository is licensed under the MIT License
 
 ## Acknowledgments
 
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Othneil Drew's readme Template](https://github.com/othneildrew)
+-   [Choose an Open Source License](https://choosealicense.com)
+-   [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+-   [Img Shields](https://shields.io)
+-   [GitHub Pages](https://pages.github.com)
+-   [Othneil Drew's readme Template](https://github.com/othneildrew)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

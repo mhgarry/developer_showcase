@@ -4,12 +4,19 @@
     "description": "<a id=\"readme-top\"></a>",
     "main": "README.md",
     "scripts": {
-        "build": "webpack --mode production"
+        "build": "webpack --mode production",
+        "start": "webpack serve --mode development",
+        "install": "npm install"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "clean-webpack-plugin": "^4.0.0",
+        "html-loader": "^5.1.0",
+        "html-webpack-plugin": "^5.6.0",
+        "markdown-loader": "^8.0.0",
+        "mini-css-extract-plugin": "^2.9.1",
         "webpack-cli": "^5.1.4"
     },
     "dependencies": {
